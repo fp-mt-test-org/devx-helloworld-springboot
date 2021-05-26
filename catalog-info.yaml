@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testing123"
+  description: "testdescription"
+  annotations:
+    github.com/project-slug: fp-mt-test-org/devx-helloworld-springboot
+    backstage.io/techdocs-ref: url:https://github.com/fp-mt-test-org/devx-helloworld-springboot
+    backstage.io/kubernetes-id: testing123
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "devx"
